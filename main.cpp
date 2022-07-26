@@ -23,7 +23,8 @@ TrieNode* getNode(char ch)
 {
     TrieNode* p = new TrieNode;
  
-    if(p != NULL){
+    if(p != NULL)
+    {
         p->val = 0;
         p->c = ch;
         p->isEndOfWord = false;
@@ -62,7 +63,8 @@ bool search(struct TrieNode *root, string key)
     bool out = true,flag=true;
     for (int i = 0; i < key.length(); i++)
     {
-        if (!trav->children[key[i] - 'a']){
+        if (!trav->children[key[i] - 'a'])
+	{
             flag = false;
             break;
         }
@@ -88,7 +90,8 @@ TrieNode* Last_Node(string key) //If returns the pointer pointing to the last le
 
     for(int i=0; i<key.length(); i++)
     {
-        if(curr->children[key[i] - 'a'] == NULL){
+        if(curr->children[key[i] - 'a'] == NULL)
+	{
             return NULL;
         }
         curr = curr->children[key[i] - 'a'];
