@@ -256,7 +256,8 @@ int max_val_Node(TrieNode* node) //It returns the index of the child of node whi
     for(int i=0; i<26; i++)
     {
         if(node->children[i] != NULL){
-            if(node->children[i]->val > maxi){
+            if(node->children[i]->val > maxi)
+	    {
                 //cout<<"\n"<<node->children[i]->val<<" "<<node->children[i]->c;
                 maxi = node->children[i]->val;
                 out = i;
