@@ -1,11 +1,4 @@
-Group number- 20
 Project Title - Trie Data Structure for word prediction and analysis.
-Course Title -Data Structures and Algorithm.
-
-Group Members :-
-Abhay Kumar 2020MEB1255
-Vaibhav 2020CSB1215
-Vipin 2020MMB1360
 
 How to run :
 
