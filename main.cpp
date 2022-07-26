@@ -116,7 +116,8 @@ TrieNode* delete_word(TrieNode* root, string key, int depth)
 
     if (depth == key.size()) {
 
-        if(root->isEndOfWord){
+        if(root->isEndOfWord)
+	{
             root->isEndOfWord = false;
         }
  
