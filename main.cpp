@@ -3,15 +3,15 @@
 
 using namespace std;
 
-
-typedef struct TrieNode{
-    
+typedef struct TrieNode
+{
     int val;
     char c;
     struct TrieNode *children[26];
     bool isEndOfWord;
-    
-}TrieNode;
+}
+
+TrieNode;
     
 TrieNode* root;
 
